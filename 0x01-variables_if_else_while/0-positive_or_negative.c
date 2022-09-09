@@ -19,7 +19,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n<0)
-		printf("%d is a nagative\n", n);
+		printf("%d is nagative\n", n);
 	exit(EXIT_SUCCESS);
 }
 
