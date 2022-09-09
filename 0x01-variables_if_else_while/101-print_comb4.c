@@ -6,10 +6,9 @@
  */
 int main(void)
 {
-	{
-		int left;
-		int right;
-		int center;
+	int left;
+	int right;
+	int center;
 
 
 
@@ -18,8 +17,6 @@ int main(void)
 			for (center = left + 1; center <= 57; center++)
 			{
 				for (right = center + 1 ; right <= 57; right++)
-
-
 				{
 					putchar(left);
 					putchar (center);
@@ -42,5 +39,4 @@ int main(void)
 		putchar('\n');
 
 		return (0);
-
 }
