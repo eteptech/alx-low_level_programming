@@ -1,16 +1,16 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
- *  main - assigns a random number to int n everytime
- *    it executes, and prints it
- *    Return: Always 0 (Success)
+ * main - generate random number and assigned to int
+ * everytime it executes
+ * Return:exit (SUCCESS)
  */
+
 int main(void)
 {
 	int n;
-
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -19,6 +19,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("%d is negative\n", n);
-	exit (EXIT_SUCCESS);
+		printf("%d is a nagative\n", n);
+	exit(EXIT_SUCCESS);
 }
+
