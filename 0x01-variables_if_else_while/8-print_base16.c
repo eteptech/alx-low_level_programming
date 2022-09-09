@@ -8,10 +8,10 @@ int main(void)
 	int i;
 	char chr;
 
-	for (n = 48; n < 58; n++)
-		putchar(n);
-	for (ch = 'a'; ch < 'g')
-		putchar(ch);
+	for (i = 48; i < 58; i++)
+		putchar(i);
+	for (chr = 'a'; chr < 'g'; chr++)
+		putchar(chr);
 	putchar('\n');
 	return (0);
 }
