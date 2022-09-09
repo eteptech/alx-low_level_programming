@@ -5,19 +5,24 @@
 */
 int main(void)
 {
-	int i;
+	int number;
 
-	for (i = 0; i <= 9; i++)
+
+	for (number = 48; number <= 57; number++)
 	{
-		putchar((i % 10) + '0');
-		if (i == 9)
-			continue;
+		putchar(number);
 
-			putchar(',');
-			putchar(' ');
+		if (number == 57)
+		{
+			break;
+		}
+
+		putchar(',');
+		putchar (' ');
 	}
 
 	putchar('\n');
+
 	return (0);
 }
 
