@@ -1,19 +1,17 @@
 #include "main.h"
-
-
 /**
- * main- prints "_putchar using putchar function"
- * Return: 0 on success
+ *main - Program that prints "_putchar"
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char ch[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
-	int len = sizeof(ch) / sizeof(ch[0]);
-	int i;
+	int c;
+	char p[] = "_putchar";
 
-	for (i = 0; i < len ; i++)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(ch[i]);
+		_putchar(p[c]);
 	}
 	_putchar('\n');
 	return (0);
