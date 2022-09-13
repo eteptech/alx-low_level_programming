@@ -7,21 +7,8 @@
 
 int _islower(int c)
 {
-	char ch;
-	char str[];
-
-	int len = sizeof(str) / sizeof(str[0]);
-	int i;
-
-	for (i = 0; i < len; i++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		for (ch = 'a'; ch <= 'z'; ch++)
-		{
-			if (str[i] == ch)
-			{
-				c++;
-			}
-		}
+		return (c);
 	}
-	return (c);
 }
