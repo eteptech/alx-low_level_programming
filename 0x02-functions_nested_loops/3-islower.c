@@ -7,7 +7,7 @@
 
 int _islower(int c)
 {
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 97; c <= 122; c++)
 	{
 		return (c);
 	}
