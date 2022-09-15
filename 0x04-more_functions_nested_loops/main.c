@@ -9,7 +9,7 @@ int main(void)
 {
 	
 	{
-		printf("%c\n",_isdigit(4));
+		printf("%d \n",mul(4,4));
 	}
 	return (0);
 }
