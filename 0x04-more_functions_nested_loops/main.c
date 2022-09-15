@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *main- prints out the output
@@ -6,5 +7,9 @@
  */
 int main(void)
 {
-	_isupper('A');
+	
+	{
+		printf("%c\n",_isdigit(4));
+	}
+	return (0);
 }
