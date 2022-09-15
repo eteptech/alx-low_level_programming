@@ -1,25 +1,24 @@
 #include <stdio.h>
 
 /**
- * main- Prints number 0..100 
- * if % 3 prints 'Fizz-Buzz test'
- * Return: 0 Always
+ *main- Prints number 0..100
+ *if num % 3 prints 'Fizz-Buzz test'
+ *Return: 0 Always
  */
 int main(void)
 {
 	int i;
-	
-	i=1;
-	char ch[10];
+
+	i = 1;
 	while (i < 100)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (i % 15 == 0)
 		{
 			printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("%d", i);
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
@@ -38,4 +37,4 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-}	
+}
