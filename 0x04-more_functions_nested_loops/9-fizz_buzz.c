@@ -10,13 +10,31 @@ int main(void)
 	int i;
 	
 	i=1;
+	char ch[10];
 	while (i < 100)
 	{
-		if (i % 3 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf (" Fizz-Buzz test ");
+			printf("FizzBuzz");
 		}
-		printf("%d ", i);
+		else if (i % 3 == 0)
+		{
+			printf("%d", i);
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else
+		{
+			printf("%d", i);
+		}
+		if (i != 100)
+		{
+			putchar(' ');
+
+		}
+
 		i++;
 	}
 	putchar('\n');
