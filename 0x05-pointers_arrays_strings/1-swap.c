@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * swap_int- Swaps two integers variable
  * @a : First parameter
