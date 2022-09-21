@@ -27,10 +27,3 @@ char *rot13(char *s)
 
 	return (s);
 }
-int main(void)
-{
-	char ch[] = "Emmanuel Ugbem";
-	printf("%s\n", rot13(ch));
-	return (0);
-}
-		
