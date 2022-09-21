@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _strcat- Concatinate two given strings
  * @dest : String to be concated
