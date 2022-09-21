@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *rot13 - encodes a string in rot13
@@ -26,3 +27,10 @@ char *rot13(char *s)
 
 	return (s);
 }
+int main(void)
+{
+	char ch[] = "Emmanuel Ugbem";
+	printf("%s\n", rot13(ch));
+	return (0);
+}
+		
