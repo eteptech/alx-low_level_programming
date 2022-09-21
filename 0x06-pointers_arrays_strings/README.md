@@ -6,3 +6,4 @@
 	- Returns a pointer to the resulting string dest
 2. Write a function that concatenates two strings.
 3. Write a function that copies a string.
+4. Write a function that compares two strings.
