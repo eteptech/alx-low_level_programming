@@ -4,7 +4,7 @@
  *@n1: integer
  *@n2: integer
  *@r: buffer
- *size_r: size of r
+ *@size_r: size of r
  *Return: char
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
