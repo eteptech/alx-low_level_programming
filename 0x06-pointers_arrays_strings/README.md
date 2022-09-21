@@ -12,3 +12,4 @@
 7. Write a function that capitalizes all words of a string.
 8. Write a function that encodes a string into 1337.
 9. Write a function that encodes a string using rot13.
+10. Write a function that prints an integer.
