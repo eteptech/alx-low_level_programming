@@ -13,3 +13,4 @@
 8. Write a function that encodes a string into 1337.
 9. Write a function that encodes a string using rot13.
 10. Write a function that prints an integer.
+11. Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
