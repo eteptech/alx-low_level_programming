@@ -10,4 +10,4 @@
 5. Write a function that reverses the content of an array of integers.
 6. Write a function that changes all lowercase letters of a string to uppercase.
 7. Write a function that capitalizes all words of a string.
-
+8. Write a function that encodes a string into 1337.
