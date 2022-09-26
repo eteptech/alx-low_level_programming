@@ -5,19 +5,17 @@
  *@c : second param
  *Return: character found.
  */
+
 char *_strchr(char *s, char c)
 {
-	while (s != '\0')
+	int i;
+
+	for (i = 0; s[i] >= '\0'  ; i++)
 	{
-		if (s == c)
-			return(s);
-		s++;
+		if (s[i] == c)
+		{
+			return (s + i);
+		}
 	}
+	return ('\0');
 }
-int main(void)
-{
-	char str[] = "Emmanuel";
-	char h = 'e';
-	char *fine = _strchr(str,h);
-	printf("%c" ,fine);
-	return 0;}
