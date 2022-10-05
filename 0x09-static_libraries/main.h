@@ -3,7 +3,7 @@
 
 /*
  *File: main.h
- *Auth: Providence Allen
+ *Auth: Emmanuel Ugbem
  *Desc: Header file containing the prototypes of all functions
  *included in the static library libmy.a
  */
