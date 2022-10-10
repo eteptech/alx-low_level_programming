@@ -5,7 +5,7 @@
  * @owner : Who owns a particular dog
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	int age;
