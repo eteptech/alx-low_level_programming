@@ -4,7 +4,7 @@
  * @age : Dogs age
  * @owner : Who owns a particular dog
  */
-
+#include <stdio.h>
 typedef struct dog
 {
 	char *name;
